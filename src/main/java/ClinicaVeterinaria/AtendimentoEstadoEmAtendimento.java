@@ -1,4 +1,25 @@
 package ClinicaVeterinaria;
 
-public class AtendimentoEstadoEmAtendimento {
+public class AtendimentoEstadoEmAtendimento
+        extends AtendimentoEstado {
+
+    private static AtendimentoEstadoEmAtendimento instance =
+            new AtendimentoEstadoEmAtendimento();
+
+    private AtendimentoEstadoEmAtendimento() {}
+
+    public static AtendimentoEstadoEmAtendimento getInstance() {
+        return instance;
+    }
+
+    public String getEstado() {
+        return "Em Atendimento";
+    }
+
+    public boolean finalizar(Atendimento atendimento) {
+        atendimento.setEstado(
+                AtendimentoEstadoFinalizado.getInstance()
+        );
+        return true;
+    }
 }

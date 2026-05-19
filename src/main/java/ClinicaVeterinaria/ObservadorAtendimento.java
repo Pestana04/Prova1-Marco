@@ -1,2 +1,6 @@
-package ClinicaVeterinaria;public class ObservadorAtendimento {
+package ClinicaVeterinaria;
+
+public interface ObservadorAtendimento {
+
+    void atualizar(String mensagem);
 }
