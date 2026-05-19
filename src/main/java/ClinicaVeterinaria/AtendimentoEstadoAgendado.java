@@ -1,4 +1,4 @@
-package ClinicaVeterinaria.state;
+package ClinicaVeterinaria;
 
 public class AtendimentoEstadoAgendado {
 }

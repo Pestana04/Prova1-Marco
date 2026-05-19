@@ -1,4 +1,4 @@
-package ClinicaVeterinaria.decorator;
+package ClinicaVeterinaria;
 
 public class DescontoAnimalAdotado {
 }

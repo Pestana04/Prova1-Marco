@@ -1,4 +1,4 @@
-package ClinicaVeterinaria.observer;
+package ClinicaVeterinaria;
 
 public class VeterinarioObserver {
 }
