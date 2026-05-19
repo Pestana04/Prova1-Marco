@@ -1,4 +1,8 @@
 package ClinicaVeterinaria;
 
-public class AtendimentoValor {
+public interface AtendimentoValor {
+
+    double getValor();
+
+    String getDescricao();
 }
